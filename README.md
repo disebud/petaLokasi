@@ -1,7 +1,7 @@
 ## Peta Lokasi
 
 **Challenge BBPLK BEKASI menggunakan Java**
-menggunakan .
+menggunakan Gmaps Locale dll.
 
 ### Layout Normal 
 ![Screenshot](https://github.com/disebud/petaLokasi/blob/master/sss/1_main.png?raw=true)
