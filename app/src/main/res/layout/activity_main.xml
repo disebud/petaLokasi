@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg_satu"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PETA LOKASI"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/disebud"/>
+
+
+<Button
+    android:id="@+id/btn_navigasi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_orange_light"
+    android:drawableLeft="@android:drawable/ic_menu_directions"
+    android:text="Navigasi ke Rumah Disebud" />
+</RelativeLayout>
